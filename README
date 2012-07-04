@@ -1,0 +1,31 @@
+This is just a simple note taking application written using python and gtk3 (screenshot is included). Objectives of this project are quite simple,
+
+run the code with
+$ python ./notetaker.py
+
+1) Given a notes directory it shows the existing files with (.txt) extensions in the side pane (file extension is not shown).
+
+2) On selecting a particular note, it will display the same in the textview. If notes is edited, then it will be get saved automatically.
+
+3) One can easily sync notes across various machines using Dropbox or Ubuntu One.
+
+4) Similar application called 'Epistle' is available for Android, which displays the text files from Dropbox folder.
+
+5) When running for the first time it will ask for creating a notes directory (config file), which can be done by clicking setting button and selecting a notes directory. (for this alpha version of the application, I would suggest to keep some files with .txt extensions in the folder you will choose
+as your notes directory)
+
+So in short with this note taking application one can sync the notes across all devices including Android Phone (dont know about Apple products).
+
+So things to be still done :
+
+1) Saving method is not fully implemented yet. Currently it will only save the edited notes when you
+select some other notes, so this needs to be resolved and automatic saving say after each 5 seconds along with save on quit is to be included.
+
+2) Add note function is not implemented yet. Being my knowledge of Python and GTK is just 5 days old, I am getting how one can add new note in TreeView (without poping up new window).
+
+3) Some UI improvements are also needed. (Least Priority)
+
+
+Looking forward for your help guys for making this a success. 
+
+
