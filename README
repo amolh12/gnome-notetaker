@@ -3,7 +3,7 @@ This is just a simple note taking application written using python and gtk3 (scr
 run the code with
 $ python ./notetaker.py
 
-1) Give a notes directory it shows the existing files with (.txt) extensions in the side pane (file extension is not shown).
+1) Given a notes directory it shows the existing files with (.txt) extensions in the side pane (file extension is not shown).
 
 2) On selecting a particular note, it will display the same in the textview. If notes is edited, then it will be get saved automatically.
 
